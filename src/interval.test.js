@@ -1,9 +1,11 @@
 const Interval = require('./interval');
 
+
     var interval1 = new Interval(1,4);
     var interval2 = new Interval(5,9);
     var interval3 = new Interval(3,7);
-    var interval4 = new Interval(6,7);
+    var interval4 = new Interval(6,8);
+    var interval5 = new Interval(2,5);
 
 describe('overlaps', function () {
 
@@ -27,7 +29,6 @@ describe('includes', function () {
     });
 });
 
-
 describe('union', function () {
     var interval = new Interval(4,7);
     test.each([
@@ -42,4 +43,15 @@ describe('union', function () {
             expect(interval.union(n)).toStrictEqual(expected);
         }
     );
+});
+
+describe('Intersection', function () {
+
+	test('Test de intersection de (2,5) et (6,8) => taille de 0', () => {
+    	expect(interval5.intersection(interval4).length).toBe(0);
+	});
+
+	test('Test intersection de (2,5) et (3,7) => taille de 1', () => {
+    	expect(interval5.intersection(interval3).length).toBe(1);
+	});
 });
