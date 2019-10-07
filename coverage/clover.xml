@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570470555305" clover="3.2.0">
-  <project timestamp="1570470555305" name="All files">
-    <metrics statements="86" coveredstatements="72" conditionals="52" coveredconditionals="43" methods="19" coveredmethods="13" elements="157" coveredelements="128" complexity="0" loc="86" ncloc="86" packages="1" files="3" classes="3"/>
+<coverage generated="1570470982015" clover="3.2.0">
+  <project timestamp="1570470982015" name="All files">
+    <metrics statements="86" coveredstatements="83" conditionals="52" coveredconditionals="47" methods="19" coveredmethods="14" elements="157" coveredelements="144" complexity="0" loc="86" ncloc="86" packages="1" files="3" classes="3"/>
     <file name="book.repository.js" path="/home/albert/Documents/2A/SoftwareTesting/tp-jest/src/book.repository.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
       <line num="7" count="1" type="stmt"/>
@@ -36,7 +36,7 @@
       <line num="139" count="1" type="stmt"/>
     </file>
     <file name="math.js" path="/home/albert/Documents/2A/SoftwareTesting/tp-jest/src/math.js">
-      <metrics statements="59" coveredstatements="47" conditionals="36" coveredconditionals="31" methods="6" coveredmethods="5"/>
+      <metrics statements="59" coveredstatements="58" conditionals="36" coveredconditionals="35" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="11" type="cond" truecount="2" falsecount="0"/>
@@ -84,17 +84,17 @@
       <line num="121" count="1" type="stmt"/>
       <line num="124" count="4" type="stmt"/>
       <line num="127" count="1" type="stmt"/>
-      <line num="128" count="0" type="stmt"/>
-      <line num="129" count="0" type="stmt"/>
-      <line num="131" count="0" type="stmt"/>
-      <line num="132" count="0" type="stmt"/>
-      <line num="133" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="134" count="0" type="stmt"/>
-      <line num="136" count="0" type="stmt"/>
-      <line num="137" count="0" type="stmt"/>
-      <line num="141" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="142" count="0" type="stmt"/>
-      <line num="145" count="0" type="stmt"/>
+      <line num="128" count="4" type="stmt"/>
+      <line num="129" count="4" type="stmt"/>
+      <line num="131" count="4" type="stmt"/>
+      <line num="132" count="4" type="stmt"/>
+      <line num="133" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="134" count="8" type="stmt"/>
+      <line num="136" count="3" type="stmt"/>
+      <line num="137" count="3" type="stmt"/>
+      <line num="141" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="142" count="3" type="stmt"/>
+      <line num="145" count="4" type="stmt"/>
       <line num="148" count="1" type="stmt"/>
     </file>
   </project>
