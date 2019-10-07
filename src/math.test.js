@@ -84,3 +84,17 @@ describe('cipher', function () {
         }
     );
 });
+
+describe('pairs', function () {
+    test.each([
+        [[3,3], 1],
+        [[3,3,5,], 1],
+        [[3,3,5,5,5], 4],
+        [[5,3,5,5,3], 4],
+    ])(
+        'pairs %s equals to %i',
+        (n, expected) => {
+            expect(Util.pairs(n)).toBe(expected);
+        }
+    );
+});
