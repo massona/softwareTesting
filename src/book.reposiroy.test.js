@@ -45,3 +45,42 @@ describe('Book repository Price', function () {
         expect(repository.getTotalPrice()).toBe(45);
     });
 });
+
+describe('Book repository Get', function () {
+
+    test('Get Narnia', () => {
+
+        const dbMock = {
+            get : jest.fn().mockReturnThis(),
+            value : jest.fn().mockReturnValue([
+                {
+                    'id': 0,
+                    'name': 'Picsou',
+                    'price' : 20.99,
+                    'added_at': '2016-09-04'
+                },
+                {
+                    'id': 1,
+                    'name': 'One Piece',
+                    'price' : 17.99,
+                    'added_at': '2004-12-05'
+                },
+                {
+                    'id': 2,
+                    'name': 'Narnia',
+                    'price' : 12.50,
+                    'added_at': '2001-06-24'
+                },
+            ])
+            
+        };
+        const repository = new BookRepository(dbMock);
+
+        expect(repository.getBookByName('Narnia')).toStrictEqual([{
+            'id': 2,
+			'name': 'Narnia',
+            'price' : 12.50,
+            'added_at': '2001-06-24'
+        }]);
+    });
+});
