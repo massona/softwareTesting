@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570477111800" clover="3.2.0">
-  <project timestamp="1570477111800" name="All files">
+<coverage generated="1570648807218" clover="3.2.0">
+  <project timestamp="1570648807218" name="All files">
     <metrics statements="105" coveredstatements="102" conditionals="64" coveredconditionals="59" methods="19" coveredmethods="15" elements="188" coveredelements="176" complexity="0" loc="105" ncloc="105" packages="1" files="3" classes="3"/>
     <file name="book.repository.js" path="/home/albert/Documents/2A/SoftwareTesting/tp-jest/src/book.repository.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
